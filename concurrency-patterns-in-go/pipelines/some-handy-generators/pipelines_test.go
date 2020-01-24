@@ -1,6 +1,8 @@
 package pipelines
 
-import ()
+import (
+	"testing"
+)
 
 func BenchmarkGeneric(b *testing.B) {
 	repeat := func(
